@@ -1,0 +1,195 @@
+body{
+    padding-left: 50px;
+    padding-top: 30px;
+    background-image:url("llogo.jpg");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: 500px 400px ;
+    background-blend-mode: overlay;
+
+    
+}
+a {
+    text-decoration: none;
+    color: #364428 ;
+}
+
+a:hover{
+    color: red ;
+
+}
+
+a:active {
+    color: blue ;
+    box-shadow: 0 3px 4px 0 ;
+}
+
+marquee {
+    color: red ;
+    box-shadow: 0 3px 4px 0  black;
+}
+
+#search{
+    padding-left: 80% ;
+}
+#para{
+    display: inline-flex;
+    list-style: none;
+}
+
+.dropbtn {
+    background-color: #b163f2;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #A3C8A8;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    
+}
+
+.li1 {
+    color: black;
+    padding: 12px 16px;
+    text-decoration:none;
+    display: block;
+    cursor: pointer;
+    box-shadow: 0 4px 5px 0 ;
+
+   
+}
+
+.li1:hover {
+    border-radius: 15px;
+    color: white ;
+    background-color: #69C9F6 ;
+
+}
+
+.dropdown-content a:hover{
+    background-color: #b3c4e0
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #b3c4e0;
+}
+
+.li2 {
+    color: black;
+    padding: 12px 16px;
+    text-decoration:none;
+    display: block;
+    cursor: pointer;
+    box-shadow: 0 4px 5px 0 ;
+   
+}
+.li2:hover {
+    border-radius: 15px;
+    color: white ;
+    background-color: #69C9F6 ;
+
+}
+
+
+
+.li3 {
+    color: black;
+    padding: 12px 16px;
+    text-decoration:none;
+    display: block;
+    cursor: pointer;
+    box-shadow: 0 4px 5px 0 ;
+   
+}
+.li3:hover {
+    border-radius: 15px;
+    color: white ;
+    background-color: #69C9F6 ;
+
+}
+
+.li4 {
+    color: black;
+    padding: 12px 16px;
+    text-decoration:none;
+    display: block;
+   cursor: pointer;
+   box-shadow: 0 4px 5px 0 ;
+}
+.li4:hover {
+    border-radius: 15px;
+    color: white ;
+    background-color: #69C9F6 ;
+
+}
+
+.li5 {
+    color: black;
+    padding: 12px 16px;
+    text-decoration:none;
+    display: block;
+    cursor: pointer;
+    box-shadow: 0 4px 5px 0 ;
+   
+}
+.li5:hover {
+    border-radius: 15px;
+    color: white ;
+    background-color: #69C9F6 ;
+
+}
+
+.li6 {
+    color: black;
+    padding: 12px 16px;
+    text-decoration:none;
+    display: block;
+    cursor: pointer;
+    box-shadow: 0 4px 5px 0 ;
+   
+}
+.li6:hover {
+    border-radius: 15px;
+    color: white ;
+    background-color: #69C9F6 ;
+
+}
+
+#para2{
+    display: inline-flex;
+    list-style: none;
+}
+
+.para {
+    padding-bottom: 30px ;
+}
+
+.but {
+    background-color: #57DAAD ;
+    color: black ;
+    font-size: 15px ;
+    transition-duration: 0.6s ;
+    box-shadow: 0 5px 6px 0 black ;
+}
+.but:hover {
+    background-color: #DCAE0C;
+    color: white ;
+    border-radius: 15px ;
+}
